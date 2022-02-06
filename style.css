@@ -88,7 +88,7 @@ nav .fa{
 
 
 
-@media(max-device-width:720px){
+@media(max-width:1440px){
     .text-box h1{
         font-size: 20px;
     } 
@@ -116,6 +116,9 @@ nav .fa{
         
     }
 }
+
+
+
 /*-------COURSE------*/
 .course{
     width: 80%;
