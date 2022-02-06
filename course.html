@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="veiwport" content="with=device-width,initial-scale=1.0">
+        <title>University Website design</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+<body>
+<section class="sub-header">
+    <nav>
+        <a href="index.html"><img src="C:\Users\Ayub\OneDrive\Documents\EDWAL\website\edwal.png"></a>
+            <div class="nav-links" id="navLinks">
+               <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1 style="text-align: center;width: 100%;padding-top: 16px; color: #fff;">Our Courses</h1>
+
+</section>
+<!--------COURSE------------>
+<section>
+    <h1 style="text-align: center;width: 100%;padding-top: 16px; color: rgb(0, 0, 0);">Courses We Offer</h1>
+    <p style=" text-align: center;">A bachelor's degree in Mathematics is of 3 years duration covering fields like B.Sc., B.Tech. which is segregated into 6 semesters. Some of the common subjects introduced in the course are <b>Integration,Laplace Transform,Vector,etc.</b>
+    </p>
+    <div class="row">
+        <div class="course-col">
+           <h3 style="text-align: center;">Integration</h3>
+           <p>Integration is the calculation of an integral. Integrals in maths are used to find many useful quantities such as areas, volumes, displacement, etc.</p>
+        </div>
+        <div class="course-col">
+            <h3 style="text-align: center;">Laplace Transform</h3>
+            <p>The Laplace transform is an integral transform named after its inventor Pierre-Simon Laplace ( / ləˈplɑːs / ). It transforms a function of a real variable t (often time) to a function of a complex variable s ( complex frequency ). </p>
+        </div>
+        <div class="course-col">
+            <h3 style="text-align: center;">Vector</h3>
+            <p>A vector is a quantity that has both magnitude and direction, such as a velocity of 60 miles per hour, heading north.</p>
+        </div>
+    </div>
+</section>
+
+
+<!-----Facilities----->
+
+
+<section class="facilities">
+    <h1>Our Facilities</h1>
+    <p>We have many world-class, large scale and national facilities that enhance the quality and value of our research and teaching.</p>
+    <div class="row">
+        <div class="facilities-col">
+            <img src="./website/library.png">
+            <h3>World Class Library</h3>
+            <p>Our Library. The School has a well-equipped library with books in all disciplines of knowledge. A trained librarian is available to guide the students.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="./website/basketball.png">
+            <h3>Largest Play Ground</h3>
+            <p>Our University has an excellent play ground for students with indoor and out door sports facilities. Our University is having very big playground for various outdoor games. </p>
+        </div>
+        <div class="facilities-col">
+            <img src="./website/cafeteria.png">
+            <h3>Tasty and Healthy Food</h3>
+            <p>We offer a range of high-quality, good-value food (including vegetarian and vegan options) for breakfast, lunch and dinner. </p>
+        </div>
+        
+        
+
+
+    </div>
+
+
+
+</section>
+
+
+
+
+
+
+
+<!-----Footer----->
+<section>
+    <h4 class="footer">About Us</h4>
+    <p style="text-align: center;">Edwal is a world-leading centre of learning, teaching and research and the <br/>Biggest university in the Mathematical World.</p>
+    <div style="text-align: center;" class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+        <i class="fa fa-twitter"></i>
+    </div>
+    <p style="text-align: center;"><b>Founded By Mujawar</b></p>
+</section>
+
+
+
+
+
+
+<!-----javascript for toggle Menu----->
+
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>

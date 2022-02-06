@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="veiwport" content="with=device-width,initial-scale=1.0">
+        <title>University Website design</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+<body>
+<section class="sub-header">
+    <nav>
+        <a href="index.html"><img src="C:\Users\Ayub\OneDrive\Documents\EDWAL\website\edwal.png"></a>
+            <div class="nav-links" id="navLinks">
+               <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1 style="text-align: center;width: 100%;padding-top: 16px; color: #fff;">Our Certificate & Online Programs<br/> for 2022</h1>
+
+</section>
+<!------blog page content-->>
+<section class="blog-content">
+    <div class="row">
+        <div class="blog-left">
+            <img src="./website/certificate.jpg">
+            <h2>Our Certificate & Online Programs for 2022</h2>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+
+            </p><br>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+            <br>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+            <br>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+            <br>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+             <div class="comment-box">
+                 <h3>Leave a Comment</h3>
+                 <form class="comment-form">
+                     <input type="text" placeholder="Enter Name">
+                     <input type="email" placeholder="Enter Email">
+                     <textarea rows="5" placeholder="Your Comment">
+
+                     </textarea>
+                     <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                     
+                 </form>
+
+
+
+
+             </div>
+        </div>
+        <div class="blog-right">
+             <h3>post categories</h3>
+             <div>
+                 <span>business analytics</span>
+                 <span>21</span>
+             </div>
+             <div>
+                <span>business analytics</span>
+                <span>21</span>
+            </div>
+            <div>
+                <span>business analytics</span>
+                <span>21</span>
+            </div>
+            <div>
+                <span>business analytics</span>
+                <span>21</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+<!-----Footer----->
+<section>
+    <h4 class="footer">About Us</h4>
+    <p style="text-align: center;">Edwal is a world-leading centre of learning, teaching and research and the <br/>Biggest university in the Mathematical World.</p>
+    <div style="text-align: center;" class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+        <i class="fa fa-twitter"></i>
+    </div>
+    <p style="text-align: center;"><b>Founded By Mujawar</b></p>
+</section>
+
+
+
+
+
+
+<!-----javascript for toggle Menu----->
+
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>
