@@ -6,7 +6,7 @@
 .header{
     min-height: 100vh;
     width: 100%;
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('./website/ban222.webp');
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('./Images/IndexBanner.png');
     background-position: center;
     background-size: cover;
     position: relative;
@@ -280,7 +280,7 @@ color: rgb(226, 214, 42);
 .cta{
     margin:100px auto ;
     width:80% ;
-    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../EDWAL/website/banner2.jpg);
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(./Images/background.jpg);
     background-position: center;
     background-size: cover;
     border-radius: 10px;
@@ -320,7 +320,7 @@ color: rgb(226, 214, 42);
 .sub-header{
     min-height: 50vh;
     width: 100%;
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('./website/background.jpg');
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('./Images/background.jpg');
     background-position: center;
     background-size: cover;
     position: relative;
@@ -448,7 +448,7 @@ nav{
 .sub-header{
     height:50vh ;
     width:100% ;
-    background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(./website/background.jpg) ;
+    background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(./Images/background.jpg) ;
     background-position:center ;
     background-size:cover ;
     text-align: center;
