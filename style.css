@@ -89,7 +89,7 @@ nav .fa{
 
 
 
-@media(max-width:650px){
+@media(max-width:800px){
     .text-box h1{
         font-size: 20px;
     } 
@@ -159,7 +159,7 @@ h3{
 .course-col:hover{
     box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
 }
-@media(max-width: 700px){
+@media(max-width: 800px){
     .row{
         flex-direction: column;
     }
@@ -292,7 +292,7 @@ color: rgb(226, 214, 42);
     padding: 0;
     margin-bottom: 40px;
 }
-@media(max-width=700px){
+@media(max-width=800px){
     .cta h1{
         font-size: 24px;
     }
@@ -395,7 +395,7 @@ nav{
     margin: 10px 0;
     
 }
-@media(max-width:700px){
+@media(max-width:800px){
     .sub-header h1{
         font-size: 24px;
     }
