@@ -390,7 +390,7 @@ nav{
     box-sizing: border-box;
     border: none;
     outline: none;
-    background: #12dde4;
+    background: #dce5e6;
 
 }
 .comment-form button{
@@ -457,3 +457,22 @@ nav{
     color: #fff;
 
 }
+
+
+
+.post-button{
+    font-size: larger;
+    padding: 6px;
+    color: #33443b;
+    background-color: #fafafa;
+    cursor: pointer;
+
+}
+
+
+#postbutton :hover{
+    color: #cbce18;
+}
+
+
+
